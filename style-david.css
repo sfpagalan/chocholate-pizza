@@ -1,0 +1,87 @@
+body{
+  display: flex;
+  border: 2px solid blue;
+  padding: 20px;
+  height:1920px;
+  width:980px;
+  justify-content: first baseline;
+}
+
+
+header{
+  display: flex;
+  border: 2px solid red;
+  justify-content: space-between;
+}
+.header-left{
+  display: flex;
+  float: left;
+  border: 2px solid purple;
+  /* justify-content: left;
+  align-items: center; */
+}
+.head-right{
+  display: flex;
+  float: right;
+  border: 2px solid cyan;
+  padding: 16px;
+}
+
+.logo-head{
+}
+
+.l-internal-head{
+  display:block;
+  border: 2px solid green;
+  justify-content: center;
+  align-items: center;
+}
+
+main{
+  border: 2px solid blue;
+  justify-content: center;
+  align-items: center;
+}
+
+.cake-header{
+display: block;
+border: 2px solid blue;
+
+}
+.main-cake-img{
+  display: block;
+  width: 100%;
+  border: 2px solid green;
+  justify-content: center;
+  align-items: center;
+}
+
+.reciept-div{
+  display: block;
+  border: 2px solid green;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.reciept-p{
+  display: block;
+  border: 2px solid green;
+  width: 901px;
+  margin-bottom:25px;
+}
+
+footer{
+  display: flex;
+  border: 2px solid blue;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin-bottom: 25px;
+  margin-top: 25px;
+  margin-left: 15px;
+  margin-right: 15px;
+  justify-content: center;
+  align-items: center;
+}
