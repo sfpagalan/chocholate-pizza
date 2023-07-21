@@ -1,0 +1,4 @@
+function printRecipe() {
+    window.print();
+  }
+  
